@@ -9,7 +9,7 @@
 * JDBC URL: ``jdbc:h2:mem:testdb``
 * User Name: ``sa``
 
-###Test Bill Calculation
+### Test Bill Calculation
 Curl
 ```
    curl --location --request POST 'http://localhost:8080/bill' \
@@ -48,7 +48,7 @@ Response
 * Run ``mvn clean verify`` **OR**  ``./mvnw clean verify``
 * Open ``target/site/jacoco/index.html`` in browser to see complete coverage report.
 
-###PMD
+### PMD
 * Run ``mvn pmd:check`` **OR**  ``./mvnw pmd:check``
     - It will check for basic code smells.
 
