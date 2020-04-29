@@ -4,6 +4,11 @@
 * Run ``mvn spring-boot:run`` **OR**  ``./mvnw spring-boot:run``
 * Open http://localhost:8080/ in browser.
 
+### Check H2 DB
+* http://localhost:8080/h2-console
+* JDBC URL: ``jdbc:h2:mem:testdb``
+* User Name: ``sa``
+
 ###Test Bill Calculation
 Curl
 ```
